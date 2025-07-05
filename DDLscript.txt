@@ -1,0 +1,99 @@
+
+CREATE TABLE Student (
+    StudentID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    Password VARCHAR(100),
+    DOB DATE,
+    Gender VARCHAR(10),
+    FatherName VARCHAR(100),
+    EMAIL VARCHAR(100),
+    Category VARCHAR(50),
+    Board_Percentage INT,
+    JEE_Score INT,
+    CategoryRank INT,
+    AIR INT,
+    Age INT,
+    PhoneNo VARCHAR(15),
+    SchoolDetails TEXT,
+    Address TEXT,
+    City VARCHAR(50),
+    State VARCHAR(50),
+    PinCode VARCHAR(10),
+    PassingYear INT
+);
+
+CREATE TABLE Payments (
+    PaymentID INT PRIMARY KEY,
+    StudentID INT,
+    Date DATE,
+    Time TIME,
+    Amount DECIMAL(10, 2),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
+);
+
+CREATE TABLE HelpDesk (
+    HelpDeskID INT PRIMARY KEY,
+    InchargeName VARCHAR(100)
+);
+
+CREATE TABLE Documents (
+    DocID INT PRIMARY KEY,
+    StudentID INT,
+    Type VARCHAR(50),
+    MaxSize INT,
+    DocumentImage BYTEA,
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
+);
+
+
+CREATE TABLE Calls (
+    StudentID INT,
+    HelpDeskID INT,
+    Call_for TEXT,
+    PRIMARY KEY (StudentID, HelpDeskID),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID),
+    FOREIGN KEY (HelpDeskID) REFERENCES HelpDesk(HelpDeskID)
+);
+
+CREATE TABLE College (
+    CollegeName VARCHAR(100) PRIMARY KEY,
+    Address TEXT,
+    City VARCHAR(50),
+    State VARCHAR(50),
+    PinCode VARCHAR(10)
+);
+
+CREATE TABLE Branch (
+    BranchID INT PRIMARY KEY,
+    BranchName VARCHAR(100)
+);
+
+CREATE TABLE Offers (
+    CollegeName VARCHAR(100),
+    BranchID INT,
+    SC INT,
+    ST INT,
+    General INT,
+    PRIMARY KEY (CollegeName, BranchID),
+    FOREIGN KEY (CollegeName) REFERENCES College(CollegeName),
+    FOREIGN KEY (BranchID) REFERENCES Branch(BranchID)
+);
+
+CREATE TABLE ChoicesFilled (
+    ChoiceID INT PRIMARY KEY,
+    StudentID INT,
+    BranchID INT,
+    CollegeName VARCHAR(100),
+    FOREIGN KEY (BranchID, CollegeName) REFERENCES Offers(BranchID, CollegeName),
+    FOREIGN KEY (StudentID) REFERENCES Student(StudentID)
+);
+
+CREATE TABLE Result (
+    ChoiceID INT,
+    RoundID INT,
+    Status VARCHAR(50),
+    PRIMARY KEY (ChoiceID, RoundID),
+    FOREIGN KEY (ChoiceID) REFERENCES ChoicesFilled(ChoiceID)
+);
+

@@ -1,0 +1,522 @@
+STUDENT DETAILS:
+
+INSERT INTO Student (StudentID, FirstName, LastName, Password, DOB, Gender, FatherName, EMAIL, Category, Board_Percentage, JEE_Score, CategoryRank, AIR, Age, PhoneNo, SchoolDetails, Address, City, State, PinCode, PassingYear)
+VALUES 
+(2025001, 'Aarav', 'Sharma', 'aaravS@12', '2006-01-15', 'Male', 'Rakesh Sharma', 'aarav.sharma@gmail.com', 'General', 95, 200, 1550, 1550, 19, '9876543210', 'DPS RK Puram', 'RK Puram', 'Delhi', 'Delhi', '110022', 2025),
+
+(2025002, 'Saanvi', 'Patel', 'saanviP@34', '2006-06-20', 'Female', 'Kiran Patel', 'saanvi.patel@gmail.com', 'General', 92, 198, 1600, 1600, 18, '9812345678', 'The Shri Ram School', 'Vasant Vihar', 'Delhi', 'Delhi', '110057', 2025),
+
+(2025003, 'Vivaan', 'Gupta', 'vivaanG@56', '2006-03-10', 'Male', 'Manoj Gupta', 'vivaan.gupta@gmail.com', 'General', 90, 196, 1650, 1650, 19, '9898765432', 'Heritage Xperiential', 'Sector 62', 'Noida', 'Uttar Pradesh', '201301', 2025),
+
+(2025004, 'Anika', 'Reddy', 'anikaR@78', '2006-08-25', 'Female', 'Srinivas Reddy', 'anika.reddy@gmail.com', 'General', 93, 194, 1700, 1700, 18, '9765432109', 'Chirec International', 'Kondapur', 'Hyderabad', 'Telangana', '500084', 2025),
+
+(2025005, 'Ishaan', 'Mehta', 'ishaanM@90', '2006-02-05', 'Male', 'Nikhil Mehta', 'ishaan.mehta@gmail.com', 'General', 91, 192, 1750, 1750, 19, '9871234567', 'Vibgyor High', 'Balewadi', 'Pune', 'Maharashtra', '411045', 2025),
+
+(2025006, 'Diya', 'Singh', 'diyaS@12', '2006-07-12', 'Female', 'Vikram Singh', 'diya.singh@gmail.com', 'SC', 89, 190, 17, 1800, 18, '9823459876', 'Kendriya Vidyalaya', 'IIT Campus', 'Chennai', 'Tamil Nadu', '600036', 2025),
+
+(2025007, 'Arjun', 'Nair', 'arjunN@34', '2006-04-30', 'Male', 'Vinod Nair', 'arjun.nair@gmail.com', 'General', 94, 188, 1850, 1850, 19, '9845671234', 'Sacred Heart School', 'Kaloor', 'Kochi', 'Kerala', '682017', 2025),
+
+(2025008, 'Rhea', 'Das', 'rheaD@56', '2006-09-15', 'Female', 'Suman Das', 'rhea.das@gmail.com', 'ST', 92, 186, 10, 1900, 18, '9878904567', 'Army Public School', 'Clement Town', 'Dehradun', 'Uttarakhand', '248002', 2025),
+
+(2025009, 'Kabir', 'Verma', 'kabirV@78', '2006-05-22', 'Male', 'Rajesh Verma', 'kabir.verma@gmail.com', 'General', 87, 184, 1950, 1950, 18, '9812347654', 'Modern School', 'Barakhamba Road', 'Delhi', 'Delhi', '110001', 2025),
+
+(2025010, 'Mira', 'Pandey', 'miraP@90', '2006-11-03', 'Female', 'Sanjay Pandey', 'mira.pandey@gmail.com', 'General', 95, 182, 2000, 2000, 18, '9876540987', 'St. Xavier’s', 'Ashok Nagar', 'Ranchi', 'Jharkhand', '834002', 2025),
+
+(2025011, 'Reyansh', 'Chauhan', 'reyanshC@12', '2006-02-18', 'Male', 'Deepak Chauhan', 'reyansh.chauhan@gmail.com', 'SC', 90, 180, 16, 2050, 19, '9821345678', 'DAV Public School', 'Sector 14', 'Faridabad', 'Haryana', '121007', 2025),
+
+(2025012, 'Aanya', 'Bose', 'aanyaB@34', '2006-07-28', 'Female', 'Pradip Bose', 'aanya.bose@gmail.com', 'General', 93, 178, 2100, 2100, 18, '9874563210', 'La Martiniere', 'Elgin Road', 'Kolkata', 'West Bengal', '700020', 2025),
+
+(2025013, 'Advik', 'Saxena', 'advikS@56', '2006-04-07', 'Male', 'Vivek Saxena', 'advik.saxena@gmail.com', 'General', 88, 176, 2150, 2150, 19, '9813456789', 'Symbiosis School', 'Baner', 'Pune', 'Maharashtra', '411045', 2025),
+
+(2025014, 'Zoya', 'Khan', 'zoyaK@78', '2006-10-19', 'Female', 'Amir Khan', 'zoya.khan@gmail.com', 'General', 91, 174, 2200, 2200, 18, '9870123456', 'Cathedral School', 'Hazratganj', 'Lucknow', 'Uttar Pradesh', '226001', 2025),
+
+(2025015, 'Aryan', 'Desai', 'aryanD@90', '2006-06-01', 'Male', 'Ketan Desai', 'aryan.desai@gmail.com', 'General', 94, 172, 2250, 2250, 18, '9843215678', 'Aditya Birla World Academy', 'Tardeo', 'Mumbai', 'Maharashtra', '400034', 2025),
+
+(2025016, 'Navya', 'Tribal', 'navyaT@12', '2006-01-25', 'Female', 'Ramesh Tribal', 'navya.tribal@gmail.com', 'ST', 89, 170, 9, 2300, 19, '9877896543', 'Jawahar Navodaya Vidyalaya', 'Koraput', 'Koraput', 'Odisha', '764020', 2025),
+
+(2025017, 'Samar', 'Malhotra', 'samarM@34', '2006-08-09', 'Male', 'Rohit Malhotra', 'samar.malhotra@gmail.com', 'General', 92, 168, 2350, 2350, 18, '9810987654', 'The Doon School', 'Chakrata Road', 'Dehradun', 'Uttarakhand', '248001', 2025),
+
+(2025018, 'Tara', 'Sen', 'taraS@56', '2006-03-14', 'Female', 'Amit Sen', 'tara.sen@gmail.com', 'General', 95, 166, 2400, 2400, 19, '9873210987', 'Loreto House', 'Park Street', 'Kolkata', 'West Bengal', '700016', 2025),
+
+(2025019, 'Veer', 'Rathore', 'veerR@78', '2006-09-30', 'Male', 'Yogesh Rathore', 'veer.rathore@gmail.com', 'SC', 90, 164, 15, 2450, 18, '9824567890', 'Ryan International', 'Kandivali', 'Mumbai', 'Maharashtra', '400101', 2025),
+
+(2025020, 'Ira', 'Joshi', 'iraJ@90', '2006-05-11', 'Female', 'Suresh Joshi', 'ira.joshi@gmail.com', 'General', 87, 162, 2500, 2500, 18, '9876543219', 'DPS Vasant Kunj', 'Vasant Kunj', 'Delhi', 'Delhi', '110070', 2025),
+
+(2025021, 'Rudra', 'Kumar', 'rudraK@12', '2006-12-02', 'Male', 'Ravi Kumar', 'rudra.kumar@gmail.com', 'ST', 93, 160, 8, 2550, 18, '9812340987', 'Eklavya School', 'Jhalawar', 'Jhalawar', 'Rajasthan', '326001', 2025),
+
+(2025022, 'Kyra', 'Sharma', 'kyraS@34', '2006-07-17', 'Female', 'Anil Sharma', 'kyra.sharma@gmail.com', 'General', 91, 158, 2600, 2600, 18, '9878901234', 'Amity International', 'Sector 43', 'Noida', 'Uttar Pradesh', '201301', 2025),
+
+(2025023, 'Shaurya', 'Patel', 'shauryaP@56', '2006-02-23', 'Male', 'Kiran Patel', 'shaurya.patel@gmail.com', 'General', 94, 156, 2650, 2650, 19, '9813450987', 'Bombay Scottish', 'Mahim', 'Mumbai', 'Maharashtra', '400016', 2025),
+
+(2025024, 'Myra', 'Gupta', 'myraG@78', '2006-08-06', 'Female', 'Manoj Gupta', 'myra.gupta@gmail.com', 'General', 89, 154, 2700, 2700, 18, '9870129876', 'Sacred Heart Convent', 'Sarabha Nagar', 'Ludhiana', 'Punjab', '141001', 2025),
+
+(2025025, 'Vihaan', 'Reddy', 'vihaanR@90', '2006-04-19', 'Male', 'Srinivas Reddy', 'vihaan.reddy@gmail.com', 'General', 92, 152, 2750, 2750, 19, '9845678901', 'Oakridge International', 'Bachupally', 'Hyderabad', 'Telangana', '500043', 2025),
+
+(2025026, 'Riya', 'Mehta', 'riyaM@12', '2006-10-08', 'Female', 'Nikhil Mehta', 'riya.mehta@gmail.com', 'SC', 95, 150, 14, 2800, 18, '9877891234', 'Springdales School', 'Pusa Road', 'Delhi', 'Delhi', '110005', 2025),
+
+(2025027, 'Ayaan', 'Nair', 'ayaanN@34', '2006-06-27', 'Male', 'Vinod Nair', 'ayaan.nair@gmail.com', 'General', 90, 149, 2850, 2850, 18, '9812347654', 'Global Indian School', 'Kakkanad', 'Kochi', 'Kerala', '682030', 2025),
+
+(2025028, 'Sia', 'Das', 'siaD@56', '2006-01-31', 'Female', 'Suman Das', 'sia.das@gmail.com', 'ST', 93, 148, 7, 2900, 19, '9876540987', 'Jawahar Navodaya Vidyalaya', 'Valpoi', 'Goa', 'Goa', '403506', 2025),
+
+(2025029, 'Neil', 'Verma', 'neilV@78', '2006-09-13', 'Male', 'Rajesh Verma', 'neil.verma@gmail.com', 'General', 88, 147, 2950, 2950, 18, '9823456789', 'The Millennium School', 'Sector 15', 'Gurgaon', 'Haryana', '122001', 2025),
+
+(2025030, 'Tia', 'Pandey', 'tiaP@90', '2006-05-04', 'Female', 'Sanjay Pandey', 'tia.pandey@gmail.com', 'General', 91, 146, 3000, 3000, 18, '9871230987', 'Blue Bells School', 'Sector 4', 'Faridabad', 'Haryana', '121001', 2025),
+
+(2025031, 'Krish', 'Chauhan', 'krishC@12', '2006-11-26', 'Male', 'Deepak Chauhan', 'krish.chauhan@gmail.com', 'SC', 94, 145, 13, 3050, 18, '9810981234', 'Sunbeam School', 'Lanka', 'Varanasi', 'Uttar Pradesh', '221005', 2025),
+
+(2025032, 'Esha', 'Bose', 'eshaB@34', '2006-07-08', 'Female', 'Pradip Bose', 'esha.bose@gmail.com', 'General', 89, 144, 3100, 3100, 18, '9878909876', 'Calcutta International', 'AJC Bose Road', 'Kolkata', 'West Bengal', '700017', 2025),
+
+(2025033, 'Rohan', 'Saxena', 'rohanS@56', '2006-02-16', 'Male', 'Vivek Saxena', 'rohan.saxena@gmail.com', 'General', 92, 143, 3150, 3150, 19, '9812345432', 'Podar School', 'Koregaon Park', 'Pune', 'Maharashtra', '411001', 2025),
+
+(2025034, 'Nia', 'Khan', 'niaK@78', '2006-08-29', 'Female', 'Amir Khan', 'nia.khan@gmail.com', 'General', 95, 142, 3200, 3200, 18, '9876547654', 'Lotus Valley School', 'Indira Nagar', 'Lucknow', 'Uttar Pradesh', '226016', 2025),
+
+(2025035, 'Yash', 'Desai', 'yashD@90', '2006-04-12', 'Male', 'Ketan Desai', 'yash.desai@gmail.com', 'General', 90, 141, 3300, 3300, 19, '9823454321', 'Greenfield School', 'Vesu', 'Surat', 'Gujarat', '395007', 2025);
+
+
+BRANCH DETAILS:
+
+NSERT INTO Branch (BranchID, BranchName)
+VALUES 
+(101, 'Computer Science'),
+(102, 'Mechanical Engineering'),
+(103, 'Electrical Engineering'),
+(104, 'Civil Engineering'),
+(105, 'Electronics and Communication Engineering'),
+(106, 'Chemical Engineering'),
+(107, 'Aerospace Engineering'),
+(108, 'Data Science and Artificial Intelligence');
+
+
+COLLEGE DETAILS:
+
+INSERT INTO College (CollegeName, Address, City, State, PinCode)
+VALUES 
+('IIT Delhi', 'Hauz Khas', 'New Delhi', 'Delhi', '110016'),
+('IIT Bombay', 'Powai', 'Mumbai', 'Maharashtra', '400076'),
+('IIT Kanpur', 'Kalyanpur', 'Kanpur', 'Uttar Pradesh', '208016'),
+('IIT Madras', 'Sardar Patel Road', 'Chennai', 'Tamil Nadu', '600036'),
+('IIT Kharagpur', 'Kharagpur', 'Kharagpur', 'West Bengal', '721302'),
+('IIT Guwahati', 'Amingaon', 'Guwahati', 'Assam', '781039'),
+('IIT Roorkee', 'Roorkee Campus', 'Roorkee', 'Uttarakhand', '247667'),
+('IIT Gandhinagar', 'Palaj', 'Gandhinagar', 'Gujarat', '382355'),
+('IIT Hyderabad', 'Kandi', 'Sangareddy', 'Telangana', '502285');
+
+
+COLLEGE OFFERS BRANCHES:
+
+INSERT INTO Offers (CollegeName, BranchID, SC, ST, General)
+VALUES 
+
+('IIT Delhi', 101, 10, 5, 40), 
+('IIT Delhi', 102, 8, 4, 35), 
+('IIT Delhi', 103, 8, 4, 35), 
+('IIT Delhi', 104, 7, 3, 30), 
+('IIT Delhi', 105, 8, 4,  Ros), 
+('IIT Delhi', 106, 7, 3, 30), 
+('IIT Delhi', 108, 6, 3, 25), 
+
+('IIT Bombay', 101, 10, 5, 40),
+('IIT Bombay', 102, 8, 4, 35),
+('IIT Bombay', 103, 8, 4, 35),
+('IIT Bombay', 104, 7, 3, 30),
+('IIT Bombay', 105, 8, 4, 35),
+('IIT Bombay', 106, 7, 3, 30),
+('IIT Bombay', 107, 6, 3, 25), 
+('IIT Bombay', 108, 6, 3, 25),
+
+('IIT Kanpur', 101, 9, 4, 35),
+('IIT Kanpur', 102, 7, 3, 30),
+('IIT Kanpur', 103, 7, 3, 30),
+('IIT Kanpur', 104, 6, 3, 25),
+('IIT Kanpur', 105, 7, 3, 30),
+('IIT Kanpur', 106, 6, 3, 25),
+('IIT Kanpur', 107, 5, 2, 20),
+
+('IIT Madras', 101, 10, 5, 40),
+('IIT Madras', 102, 8, 4, 35),
+('IIT Madras', 103, 8, 4, 35),
+('IIT Madras', 104, 7, 3, 30),
+('IIT Madras', 105, 8, 4, 35),
+('IIT Madras', 106, 7, 3, 30),
+('IIT Madras', 107, 6, 3, 25),
+('IIT Madras', 108, 6, 3, 25),
+
+('IIT Kharagpur', 101, 9, 4, 35),
+('IIT Kharagpur', 102, 7, 3, 30),
+('IIT Kharagpur', 103, 7, 3, 30),
+('IIT Kharagpur', 104, 6, 3, 25),
+('IIT Kharagpur', 105, 7, 3, 30),
+('IIT Kharagpur', 106, 6, 3, 25),
+('IIT Kharagpur', 107, 5, 2, 20),
+
+('IIT Guwahati', 101, 8, 4, 30),
+('IIT Guwahati', 102, 6, 3, 25),
+('IIT Guwahati', 103, 6, 3, 25),
+('IIT Guwahati', 104, 5, 2, 20),
+('IIT Guwahati', 105, 6, 3, 25),
+('IIT Guwahati', 106, 5, 2, 20)
+,
+('IIT Roorkee', 101, 8, 4, 30),
+('IIT Roorkee', 102, 6, 3, 25),
+('IIT Roorkee', 103, 6, 3, 25),
+('IIT Roorkee', 104, 5, 2, 20),
+('IIT Roorkee', 105, 6, 3, 25),
+('IIT Roorkee', 106, 5, 2, 20),
+
+('IIT Gandhinagar', 101, 7, 3, 25),
+('IIT Gandhinagar', 102, 5, 2, 20),
+('IIT Gandhinagar', 103, 5, 2, 20),
+('IIT Gandhinagar', 104, 4, 2, 15),
+('IIT Gandhinagar', 105, 5, 2, 20),
+('IIT Gandhinagar', 106, 4, 2, 15),
+
+('IIT Hyderabad', 101, 8, 4, 30),
+('IIT Hyderabad', 102, 6, 3, 25),
+('IIT Hyderabad', 103, 6, 3, 25),
+('IIT Hyderabad', 104, 5, 2, 20),
+('IIT Hyderabad', 105, 6, 3, 25),
+('IIT Hyderabad', 106, 5, 2, 20),
+('IIT Hyderabad', 108, 5, 2, 20);
+
+
+PAYMENT DETAILS:
+
+INSERT INTO Payments (PaymentID, StudentID, Date, Time, Amount)
+VALUES 
+(1001, 2025001, '2025-06-05', '10:15:00', 2000.00),
+(1002, 2025002, '2025-06-07', '11:30:00', 2000.00),
+(1003, 2025003, '2025-06-10', '09:45:00', 2000.00),
+(1004, 2025004, '2025-06-12', '14:20:00', 2000.00),
+(1005, 2025005, '2025-06-15', '12:10:00', 2000.00),
+(1006, 2025006, '2025-06-18', '15:50:00', 2000.00),
+(1007, 2025007, '2025-06-20', '13:25:00', 2000.00),
+(1008, 2025008, '2025-06-22', '16:40:00', 2000.00),
+(1009, 2025009, '2025-06-25', '10:55:00', 2000.00),
+(1010, 2025010, '2025-06-28', '11:15:00', 2000.00),
+(1011, 2025011, '2025-07-01', '09:30:00', 2000.00),
+(1012, 2025012, '2025-07-03', '14:45:00', 2000.00),
+(1013, 2025013, '2025-07-05', '12:20:00', 2000.00),
+(1014, 2025014, '2025-07-08', '15:10:00', 2000.00),
+(1015, 2025016, '2025-07-10', '10:25:00', 2000.00),
+(1016, 2025017, '2025-07-12', '13:50:00', 2000.00),
+(1017, 2025018, '2025-07-15', '11:40:00', 2000.00),
+(1018, 2025019, '2025-07-18', '16:15:00', 2000.00),
+(1019, 2025020, '2025-07-20', '09:55:00', 2000.00),
+(1020, 2025021, '2025-07-22', '14:30:00', 2000.00),
+(1021, 2025022, '2025-07-25', '12:05:00', 2000.00),
+(1022, 2025023, '2025-07-28', '15:45:00', 2000.00),
+(1023, 2025024, '2025-07-30', '10:10:00', 2000.00),
+(1024, 2025026, '2025-08-01', '11:25:00', 2000.00),
+(1025, 2025027, '2025-08-03', '13:15:00', 2000.00),
+(1026, 2025028, '2025-08-05', '16:50:00', 2000.00),
+(1027, 2025029, '2025-08-08', '09:20:00', 2000.00),
+(1028, 2025030, '2025-08-10', '14:40:00', 2000.00),
+(1029, 2025031, '2025-08-12', '12:30:00', 2000.00),
+(1030, 2025032, '2025-08-15', '15:05:00', 2000.00),
+(1031, 2025033, '2025-08-18', '10:50:00', 2000.00),
+(1032, 2025034, '2025-08-20', '11:55:00', 2000.00);
+
+
+CHOICESFILLED:
+
+INSERT INTO ChoicesFilled (ChoiceID, StudentID, BranchID, CollegeName)
+VALUES 
+(20250011, 2025001, 101, 'IIT Delhi'),
+(20250012, 2025001, 101, 'IIT Bombay'),
+(20250013, 2025001, 105, 'IIT Madras'),
+(20250014, 2025001, 108, 'IIT Delhi'),
+(20250015, 2025001, 101, 'IIT Roorkee'),
+(20250021, 2025002, 101, 'IIT Bombay'),
+(20250022, 2025002, 101, 'IIT Delhi'),
+(20250023, 2025002, 105, 'IIT Bombay'),
+(20250024, 2025002, 108, 'IIT Madras'),
+(20250031, 2025003, 101, 'IIT Madras'),
+(20250032, 2025003, 101, 'IIT Bombay'),
+(20250033, 2025003, 105, 'IIT Delhi'),
+(20250034, 2025003, 108, 'IIT Bombay'),
+(20250035, 2025003, 101, 'IIT Roorkee'),
+(20250041, 2025004, 101, 'IIT Delhi'),
+(20250042, 2025004, 105, 'IIT Bombay'),
+(20250043, 2025004, 101, 'IIT Madras'),
+(20250044, 2025004, 105, 'IIT Roorkee'),
+(20250051, 2025005, 101, 'IIT Bombay'),
+(20250052, 2025005, 105, 'IIT Delhi'),
+(20250053, 2025005, 108, 'IIT Madras'),
+(20250054, 2025005, 101, 'IIT Roorkee'),
+(20250055, 2025005, 105, 'IIT Kanpur'),
+(20250061, 2025006, 101, 'IIT Delhi'),
+(20250062, 2025006, 101, 'IIT Bombay'),
+(20250063, 2025006, 105, 'IIT Madras'),
+(20250064, 2025006, 108, 'IIT Hyderabad'),
+(20250071, 2025007, 101, 'IIT Roorkee'),
+(20250072, 2025007, 105, 'IIT Bombay'),
+(20250073, 2025007, 101, 'IIT Kanpur'),
+(20250081, 2025008, 101, 'IIT Madras'),
+(20250082, 2025008, 105, 'IIT Delhi'),
+(20250083, 2025008, 107, 'IIT Bombay'),
+(20250084, 2025008, 101, 'IIT Kharagpur'),
+(20250091, 2025009, 101, 'IIT Kanpur'),
+(20250092, 2025009, 105, 'IIT Roorkee'),
+(20250093, 2025009, 103, 'IIT Bombay'),
+(20250094, 2025009, 108, 'IIT Delhi'),
+(20250095, 2025009, 101, 'IIT Hyderabad'),
+(20250101, 2025010, 105, 'IIT Kanpur'),
+(20250102, 2025010, 101, 'IIT Kharagpur'),
+(20250103, 2025010, 103, 'IIT Madras'),
+(20250111, 2025011, 101, 'IIT Kharagpur'),
+(20250112, 2025011, 105, 'IIT Hyderabad'),
+(20250113, 2025011, 103, 'IIT Delhi'),
+(20250114, 2025011, 108, 'IIT Bombay'),
+(20250121, 2025012, 101, 'IIT Hyderabad'),
+(20250122, 2025012, 105, 'IIT Kanpur'),
+(20250123, 2025012, 103, 'IIT Roorkee'),
+(20250131, 2025013, 103, 'IIT Kharagpur'),
+(20250132, 2025013, 105, 'IIT Hyderabad'),
+(20250133, 2025013, 101, 'IIT Guwahati'),
+(20250134, 2025013, 107, 'IIT Kanpur'),
+(20250141, 2025014, 103, 'IIT Kanpur'),
+(20250142, 2025014, 105, 'IIT Kharagpur'),
+(20250143, 2025014, 102, 'IIT Roorkee'),
+(20250144, 2025014, 101, 'IIT Guwahati'),
+(20250145, 2025014, 108, 'IIT Hyderabad'),
+(20250161, 2025016, 103, 'IIT Kharagpur'),
+(20250162, 2025016, 105, 'IIT Hyderabad'),
+(20250163, 2025016, 101, 'IIT Guwahati'),
+(20250164, 2025016, 106, 'IIT Roorkee'),
+(20250171, 2025017, 103, 'IIT Guwahati'),
+(20250172, 2025017, 106, 'IIT Hyderabad'),
+(20250173, 2025017, 102, 'IIT Kharagpur'),
+(20250181, 2025018, 106, 'IIT Kanpur'),
+(20250182, 2025018, 103, 'IIT Guwahati'),
+(20250183, 2025018, 102, 'IIT Hyderabad'),
+(20250184, 2025018, 104, 'IIT Roorkee'),
+(20250191, 2025019, 103, 'IIT Hyderabad'),
+(20250192, 2025019, 106, 'IIT Guwahati'),
+(20250193, 2025019, 104, 'IIT Kharagpur'),
+(20250201, 2025020, 106, 'IIT Guwahati'),
+(20250202, 2025020, 103, 'IIT Gandhinagar'),
+(20250203, 2025020, 104, 'IIT Hyderabad'),
+(20250204, 2025020, 102, 'IIT Kanpur'),
+(20250211, 2025021, 106, 'IIT Hyderabad'),
+(20250212, 2025021, 103, 'IIT Guwahati'),
+(20250213, 2025021, 104, 'IIT Gandhinagar'),
+(20250221, 2025022, 106, 'IIT Gandhinagar'),
+(20250222, 2025022, 103, 'IIT Hyderabad'),
+(20250223, 2025022, 104, 'IIT Guwahati'),
+(20250224, 2025022, 102, 'IIT Kharagpur'),
+(20250231, 2025023, 104, 'IIT Guwahati'),
+(20250232, 2025023, 106, 'IIT Gandhinagar'),
+(20250233, 2025023, 103, 'IIT Hyderabad'),
+(20250241, 2025024, 106, 'IIT Guwahati'),
+(20250242, 2025024, 104, 'IIT Gandhinagar'),
+(20250243, 2025024, 103, 'IIT Hyderabad'),
+(20250261, 2025026, 106, 'IIT Gandhinagar'),
+(20250262, 2025026, 104, 'IIT Hyderabad'),
+(20250263, 2025026, 103, 'IIT Guwahati'),
+(20250271, 2025027, 104, 'IIT Gandhinagar'),
+(20250272, 2025027, 106, 'IIT Guwahati'),
+(20250281, 2025028, 104, 'IIT Hyderabad'),
+(20250282, 2025028, 106, 'IIT Gandhinagar'),
+(20250283, 2025028, 103, 'IIT Guwahati'),
+(20250291, 2025029, 106, 'IIT Gandhinagar'),
+(20250292, 2025029, 104, 'IIT Hyderabad'),
+(20250301, 2025030, 104, 'IIT Guwahati'),
+(20250302, 2025030, 106, 'IIT Gandhinagar'),
+(20250303, 2025030, 103, 'IIT Hyderabad'),
+(20250311, 2025031, 106, 'IIT Hyderabad'),
+(20250312, 2025031, 104, 'IIT Gandhinagar'),
+(20250321, 2025032, 104, 'IIT Gandhinagar'),
+(20250322, 2025032, 106, 'IIT Guwahati'),
+(20250323, 2025032, 103, 'IIT Hyderabad'),
+(20250331, 2025033, 106, 'IIT Gandhinagar'),
+(20250332, 2025033, 104, 'IIT Hyderabad'),
+(20250341, 2025034, 104, 'IIT Guwahati'),
+(20250342, 2025034, 106, 'IIT Gandhinagar'),
+(20250343, 2025034, 103, 'IIT Hyderabad');
+
+
+
+DOCUMENT DETAILS:
+
+INSERT INTO Documents (DocID, StudentID, Type, MaxSize, DocumentImage) VALUES
+(1, 2025001, 'Aadhar', 200, NULL),
+(2, 2025001, 'Marksheet(12)', 400, NULL),
+(3, 2025001, 'Result(JEE)', 300, NULL),
+(4, 2025002, 'Aadhar', 200, NULL),
+(5, 2025002, 'Marksheet(12)', 400, NULL),
+(6, 2025002, 'Result(JEE)', 300, NULL),
+(7, 2025003, 'Aadhar', 200, NULL),
+(8, 2025003, 'Marksheet(12)', 400, NULL),
+(9, 2025003, 'Result(JEE)', 300, NULL),
+(10, 2025004, 'Aadhar', 200, NULL),
+(11, 2025004, 'Marksheet(12)', 400, NULL),
+(12, 2025004, 'Result(JEE)', 300, NULL),
+(13, 2025005, 'Aadhar', 200, NULL),
+(14, 2025005, 'Marksheet(12)', 400, NULL),
+(15, 2025005, 'Result(JEE)', 300, NULL),
+(16, 2025006, 'Aadhar', 200, NULL),
+(17, 2025006, 'Marksheet(12)', 400, NULL),
+(18, 2025006, 'Result(JEE)', 300, NULL),
+(19, 2025007, 'Aadhar', 200, NULL),
+(20, 2025007, 'Marksheet(12)', 400, NULL),
+(21, 2025007, 'Result(JEE)', 300, NULL),
+(22, 2025008, 'Aadhar', 200, NULL),
+(23, 2025008, 'Marksheet(12)', 400, NULL),
+(24, 2025008, 'Result(JEE)', 300, NULL),
+(25, 2025009, 'Aadhar', 200, NULL),
+(26, 2025009, 'Marksheet(12)', 400, NULL),
+(27, 2025009, 'Result(JEE)', 300, NULL),
+(28, 2025010, 'Aadhar', 200, NULL),
+(29, 2025010, 'Marksheet(12)', 400, NULL),
+(30, 2025010, 'Result(JEE)', 300, NULL),
+(31, 2025011, 'Aadhar', 200, NULL),
+(32, 2025011, 'Marksheet(12)', 400, NULL),
+(33, 2025011, 'Result(JEE)', 300, NULL),
+(34, 2025012, 'Aadhar', 200, NULL),
+(35, 2025012, 'Marksheet(12)', 400, NULL),
+(36, 2025012, 'Result(JEE)', 300, NULL),
+(37, 2025013, 'Aadhar', 200, NULL),
+(38, 2025013, 'Marksheet(12)', 400, NULL),
+(39, 2025013, 'Result(JEE)', 300, NULL),
+(40, 2025014, 'Aadhar', 200, NULL),
+(41, 2025014, 'Marksheet(12)', 400, NULL),
+(42, 2025014, 'Result(JEE)', 300, NULL),
+(43, 2025015, 'Aadhar', 200, NULL),
+(44, 2025015, 'Marksheet(12)', 400, NULL),
+(45, 2025015, 'Result(JEE)', 300, NULL),
+(46, 2025016, 'Aadhar', 200, NULL),
+(47, 2025016, 'Marksheet(12)', 400, NULL),
+(48, 2025016, 'Result(JEE)', 300, NULL),
+(49, 2025017, 'Aadhar', 200, NULL),
+(50, 2025017, 'Marksheet(12)', 400, NULL),
+(51, 2025017, 'Result(JEE)', 300, NULL),
+(52, 2025018, 'Aadhar', 200, NULL),
+(53, 2025018, 'Marksheet(12)', 400, NULL),
+(54, 2025018, 'Result(JEE)', 300, NULL),
+(55, 2025019, 'Aadhar', 200, NULL),
+(56, 2025019, 'Marksheet(12)', 400, NULL),
+(57, 2025019, 'Result(JEE)', 300, NULL),
+(58, 2025020, 'Aadhar', 200, NULL),
+(59, 2025020, 'Marksheet(12)', 400, NULL),
+(60, 2025020, 'Result(JEE)', 300, NULL),
+(61, 2025021, 'Aadhar', 200, NULL),
+(62, 2025021, 'Marksheet(12)', 400, NULL),
+(63, 2025021, 'Result(JEE)', 300, NULL),
+(64, 2025022, 'Aadhar', 200, NULL),
+(65, 2025022, 'Marksheet(12)', 400, NULL),
+(66, 2025022, 'Result(JEE)', 300, NULL),
+(67, 2025023, 'Aadhar', 200, NULL),
+(68, 2025023, 'Marksheet(12)', 400, NULL),
+(69, 2025023, 'Result(JEE)', 300, NULL),
+(70, 2025024, 'Aadhar', 200, NULL),
+(71, 2025024, 'Marksheet(12)', 400, NULL),
+(72, 2025024, 'Result(JEE)', 300, NULL),
+(73, 2025025, 'Aadhar', 200, NULL),
+(74, 2025025, 'Marksheet(12)', 400, NULL),
+(75, 2025025, 'Result(JEE)', 300, NULL),
+(76, 2025026, 'Aadhar', 200, NULL),
+(77, 2025026, 'Marksheet(12)', 400, NULL),
+(78, 2025026, 'Result(JEE)', 300, NULL),
+(79, 2025027, 'Aadhar', 200, NULL),
+(80, 2025027, 'Marksheet(12)', 400, NULL),
+(81, 2025027, 'Result(JEE)', 300, NULL),
+(82, 2025028, 'Aadhar', 200, NULL),
+(83, 2025028, 'Marksheet(12)', 400, NULL),
+(84, 2025028, 'Result(JEE)', 300, NULL),
+(85, 2025029, 'Aadhar', 200, NULL),
+(86, 2025029, 'Marksheet(12)', 400, NULL),
+(87, 2025029, 'Result(JEE)', 300, NULL),
+(88, 2025030, 'Aadhar', 200, NULL),
+(89, 2025030, 'Marksheet(12)', 400, NULL),
+(90, 2025030, 'Result(JEE)', 300, NULL),
+(91, 2025031, 'Aadhar', 200, NULL),
+(92, 2025031, 'Marksheet(12)', 400, NULL),
+(93, 2025031, 'Result(JEE)', 300, NULL),
+(94, 2025032, 'Aadhar', 200, NULL),
+(95, 2025032, 'Marksheet(12)', 400, NULL),
+(96, 2025032, 'Result(JEE)', 300, NULL),
+(97, 2025033, 'Aadhar', 200, NULL),
+(98, 2025033, 'Marksheet(12)', 400, NULL),
+(99, 2025033, 'Result(JEE)', 300, NULL),
+(100, 2025034, 'Aadhar', 200, NULL),
+(101, 2025034, 'Marksheet(12)', 400, NULL),
+(102, 2025034, 'Result(JEE)', 300, NULL),
+(103, 2025035, 'Aadhar', 200, NULL),
+(104, 2025035, 'Marksheet(12)', 400, NULL),
+(105, 2025035, 'Result(JEE)', 300, NULL);
+
+
+HELPDESK DETAILS:
+
+INSERT INTO HelpDesk (HelpDeskID, InchargeName) VALUES
+(1, 'Amit Sharma'),
+(2, 'Priya Patel'),
+(3, 'Rahul Verma');
+
+CALLS:
+
+INSERT INTO Calls (StudentID, HelpDeskID, Call_for) VALUES
+(2025001, 1, 'documents'),
+(2025003, 2, 'cutoffquery'),
+(2025005, 3, 'allocationquery'),
+(2025007, 1, 'documents'),
+(2025009, 2, 'paymentquery'),
+(2025011, 3, 'allocationquery'),
+(2025013, 1, 'cutoffquery'),
+(2025015, 2, 'documents'),
+(2025017, 3, 'paymentquery'),
+(2025019, 1, 'documents'),
+(2025021, 1, 'allocationquery'),
+(2025021, 2, 'cutoffquery'),
+(2025023, 2, 'documents'),
+(2025023, 3, 'paymentquery'),
+(2025025, 3, 'cutoffquery'),
+(2025025, 1, 'allocationquery'),
+(2025027, 1, 'paymentquery'),
+(2025027, 2, 'documents'),
+(2025029, 2, 'cutoffquery'),
+(2025029, 3, 'documents');
+
+
+RESULTS:
+
+INSERT INTO Result (ChoiceID, RoundID, Status)
+VALUES 
+(20250011, 1, 'Confirmed'),
+(20250021, 1, 'Confirmed'),
+(20250031, 1, 'Confirmed'),
+(20250041, 1, 'Confirmed'),
+(20250051, 1, 'Confirmed'),
+(20250061, 1, 'Confirmed'),
+(20250071, 1, 'Confirmed'),
+(20250081, 1, 'Confirmed'),
+(20250091, 1, 'Confirmed'),
+(20250101, 1, 'Confirmed'),
+(20250111, 1, 'Confirmed'),
+(20250121, 1, 'Confirmed'),
+(20250131, 1, 'Confirmed'),
+(20250141, 1, 'Confirmed'),
+(20250161, 1, 'Confirmed'),
+(20250172, 2, 'Float'),
+(20250182, 2, 'Confirmed'),
+(20250191, 2, 'Confirmed'),
+(20250202, 2, 'Float'),
+(20250212, 2, 'Quit'),
+(20250222, 2, 'Float'),
+(20250232, 2, 'Confirmed'),
+(20250242, 2, 'Quit'),
+(20250261, 2, 'Confirmed'),
+(20250281, 2, 'Float'),
+(20250272, 3, 'Confirmed'),
+(20250292, 3, 'Quit'),
+(20250303, 3, 'Float'),
+(20250312, 3, 'Confirmed'),
+(20250323, 3, 'Quit'),
+(20250332, 3, 'Confirmed'),
+(20250343, 3, 'Quit'),
+
+-- Round 3 entries for previous Float candidates from Round 2
+(20250173, 3, 'Confirmed'),  -- from 20250172 Float
+(20250203, 3, 'Confirmed'),  -- from 20250202 Float
+(20250223, 3, 'Quit'),       -- from 20250222 Float
+(20250283, 3, 'Confirmed');  -- from 20250281 Float
